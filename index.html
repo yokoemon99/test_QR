@@ -16,11 +16,12 @@
 
 <body style="margin : 0px; overflow: hidden;">
     <a-scene>  
-        <a-marker preset="hiro">
-            <a-assets>
-                <video id="penguin-sledding" autoplay loop="true" src="img/test.mp4"></video>
-            </a-assets>
-        </a-marker>
+        <a-marker preset="hiro"></a-marker>
+        <a-assets>
+            <video id="penguin-sledding" autoplay loop="true" src="img/test.mp4"></video>
+        </a-assets>
+        
+        <a-entity camera></a-entity>
     </a-scene>
     <p style="background-color: white; font-size: 10%; font-weight: bold; position: absolute; top: 1px; left: 1px;">
         QRコードをかざしてください

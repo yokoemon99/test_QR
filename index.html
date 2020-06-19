@@ -18,11 +18,11 @@
     <a-scene>
         <a-entity camera></a-entity> 
         <a-assets>
-            <video id="penguin-sledding" autoplay loop="true" src="img/test.mp4"></video>
-            <a-marker preset="hiro">
-                <a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
-            </a-marker>
+            <video id="penguin-sledding" autoplay loop="true" muted="true" src="img/test.mp4"></video>
         </a-assets>
+        <a-marker preset="hiro">
+            <a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
+        </a-marker>
     </a-scene>
     <p style="background-color: white; font-size: 10%; font-weight: bold; position: absolute; top: 1px; left: 1px;">
         QRコードをかざしてください
